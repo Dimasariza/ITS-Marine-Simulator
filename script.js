@@ -54,6 +54,7 @@ scene.add(ambientLight)
 
 const loader = new GLTFLoader().setPath('assets/');
 
+// loader
 loader.load('ITS Marine Simulator.glb', (propeller) => {
     const mesh = propeller.scene;
     mesh.traverse((child) => {
