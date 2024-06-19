@@ -52,7 +52,7 @@ scene.add(spotLight);
 const ambientLight = new THREE.AmbientLight(0xFFFFFF, 2)
 scene.add(ambientLight)
 
-const loader = new GLTFLoader().setPath('assets/');
+const loader = new GLTFLoader().setPath('ITS-Marine-Simulator/assets/');
 
 loader.load('ITS Marine Simulator.glb', (propeller) => {
     const mesh = propeller.scene;
